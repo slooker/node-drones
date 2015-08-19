@@ -1,0 +1,24 @@
+{
+  "name": "node-copter",
+  "version": "1.0.0",
+  "description": "Scripts for playing with node copters",
+  "main": "drone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drones",
+    "parrot",
+    "rolling-spider"
+  ],
+  "author": "Shawn Looker",
+  "license": "ISC",
+  "dependencies": {
+    "ar-drone": "^0.3.3",
+    "keypress": "^0.2.1",
+    "noble": "^1.1.0",
+    "node-hid": "^0.4.0",
+    "rolling-spider": "latest",
+    "temporal": "^0.4.0"
+  }
+}
